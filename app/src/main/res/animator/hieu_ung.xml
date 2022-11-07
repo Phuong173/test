@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially"
+    >
+
+    <objectAnimator android:propertyName="y"
+        android:valueTo="1300"
+        android:duration="1000"
+        android:valueFrom="0"/>
+    <objectAnimator android:propertyName="rotation"
+        android:valueTo="90"
+        android:duration="800"/>
+    <objectAnimator android:propertyName="scaleX"
+        android:valueTo="2"
+        android:duration="400"/>
+    <objectAnimator android:propertyName="scaleX"
+        android:valueTo="3"
+        android:duration="400"/>
+
+</set>
